@@ -23,8 +23,9 @@ class Program
         for (int i = 0; i < arr.Length; i++)
         {
             arr[i] = random.Next(1, 100);
-            Console.WriteLine(arr[i]);
         }
+
+        Console.WriteLine(string.Join(" ", arr));
 
         while (true)
         {
